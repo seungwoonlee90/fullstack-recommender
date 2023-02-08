@@ -1,0 +1,4 @@
+# Fullstack-reacommender
+
+- FastAPI
+- React
