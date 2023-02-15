@@ -3,7 +3,8 @@
 name: Sync this repository to another repository
  
 on:
-  push
+  push :
+   branches: ["deploy"]
  
 jobs:
   push-to-gitlab:
