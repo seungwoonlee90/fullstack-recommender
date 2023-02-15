@@ -2,7 +2,7 @@ FROM python:3.9
 
 EXPOSE 80
 
-COPY ./app /app
+COPY ./apps /apps
 
 COPY requirements.txt /app/requirements.txt
 
