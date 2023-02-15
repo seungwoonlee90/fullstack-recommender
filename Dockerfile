@@ -4,9 +4,8 @@ EXPOSE 80
 
 COPY ./apps /apps
 
-COPY requirements.txt /app/requirements.txt
-
-WORKDIR /app
+COPY requirements.txt /apps/requirements.txt
+WORKDIR /apps
 
 RUN python3 -m pip install --no-cache-dir --upgrade \
         setuptools \
